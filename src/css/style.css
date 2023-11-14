@@ -1,0 +1,93 @@
+body {
+    background-image: url(../image/bg-repeat.jpg);
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duvida {
+    width: 300px;
+    margin: 25px;
+}
+
+.duvida h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.duvida p {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#formulario {
+    background-color: #FFF;
+    max-width: 340px;
+    width: 100%;
+    padding: 20px;
+    margin: 25px;
+}
+
+#formulario input,
+#formulario textarea {
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+}
+
+#formulario textarea {
+    resize: none;
+    height: 100px;
+}
+
+#formulario button {
+    background-color: #3ccc87;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#formulario p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#formulario a {
+    visibility: hidden;
+    color: #F52E2E;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #A8A8A8;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px;
+}
+
+#formulario .erro {
+    border-color: #F52E2E;
+    visibility: visible;
+}
+
+#formulario .certo {
+    border: 1px solid #00C22B;
+}
